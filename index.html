@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FED 04 | Home Page</title>	
+	<!-- <link rel="stylesheet" href="icons/icofont.min.css"> -->
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<style>
+		*{
+			margin: 0;	
+			padding: 0;	
+			box-sizing: border-box;	
+		}
+		body{
+			background-color: #f5f5f5;
+			font-family: Arial, sans-serif;
+		}
+		.container{
+			width: 1140px;
+			margin: 0 auto;
+			background-color: #fff;
+			padding: 20px 30px;
+		}
+
+
+		/* -------- Header styles start ----------- */
+		
+		.header-info{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.header-info .header-details{
+
+		}
+		.user-img img{
+			width: 110px;
+		}
+		.header-details{
+			width: 85%;
+		}
+		.header-info .myname{
+			border-bottom: solid 1px #ccc;
+			padding-bottom: 10px;
+			margin-bottom: 10px;
+		}
+
+		.header-info .navbar ul{
+			list-style: none;
+		}
+		.header-info .navbar ul li{
+			display: inline-block;
+			margin: 0 15px;
+			color: #999;
+		}
+		.header-info .navbar ul li:nth-child(1){
+			margin-left: 0;
+		}
+		.navbar ul li a{
+			color:#999;
+			text-decoration: none;
+			display: block;
+		}
+		.navbar ul li a.active{
+			color: #000;
+		}
+		.navbar ul li a:hover{
+			color: #000;
+		}
+
+		/* -------- Header styles end ----------- */
+
+		/* -------- Banner styles start ----------- */
+		.banner{
+			background-color: #000;
+			padding: 80px 15px;
+			text-align: center;
+			margin-top: 30px;
+		}
+		.banner-content h3{
+			color: #999;
+			font-size: 20px;
+		}
+		.banner-content h1{
+			color: #fff;
+			font-size: 35px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+		.banner-content p{
+			color: #f5f5f5;
+		}
+		.banner-content a{
+			color: #fff;
+			font-size: 16px;
+			text-decoration: none;
+			display: inline-block;
+			padding: 10px 15px;
+			text-align: center;
+			border:solid 1px #fff;
+			margin-top: 15px;
+		}
+
+
+		.main{
+			width: 700px;
+			height: 500px;
+			/*background-color: red;*/
+			border:solid 1px red;
+		}
+		.relative{
+			position: relative;
+			top: 0;
+			left: 0;
+			width: 600px;
+			height: 400px;
+			/*background-color: red;*/
+			border:solid 1px #000;
+			color: #fff;
+			
+		}
+		.absolute1{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			text-align: center;
+			line-height: 100px;
+			color: #fff;
+			font-size: 18px;
+		}
+		.absolute2{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100px;
+			height: 100px;
+			background-color: green;
+			text-align: center;
+			line-height: 100px;
+			color: #fff;
+			font-size: 18px;
+		}
+		.absolute3{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100px;
+			height: 100px;
+			background-color: blue;
+			text-align: center;
+			line-height: 100px;
+			color: #fff;
+			font-size: 18px;
+		}
+		.fixed{
+			/*position: fixed;*/
+			top: 0;
+			left: 0;
+			width: 300px;
+			height: 250px;
+			background-color: blue;
+			text-align: center;
+			line-height: 250px;
+			color: #fff;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+
+
+
+
+	<!---------------------- main Container start  --------------------->
+	<div class="container">
+
+		<!---------------------- header name & menu start  --------------------->
+		<section class="header-info">	
+			<!------- header img start  ----->
+			<div class="user-img">
+				<img src="image/picture5.jpg" alt="user-img">
+			</div>
+			<!------- header img ends  ----->
+
+			<!------ header details start  ----->
+			<div class="header-details">
+				<div class="myname">	
+					<h1>Vinoth K</h1>
+				</div>
+				<nav class="navbar">
+					<ul>
+						<li>
+							<a href="#" class="active">About</a>
+						</li>
+						<li>
+							<a href="#">Skill</a>
+						</li>
+						<li>
+							<a href="#">Education</a>
+						</li>
+						<li>
+							<a href="#">Projects</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<!------- header details ends -------->
+		</section>
+		<!---------------------- header name & menu start --------------------->
+
+		<!---------------------- banner start  --------------------->
+		<section class="banner">
+			<div class="banner-content">
+				<h3>Hellow, World.</h3>
+				<h1>Im a UI Developer</h1>
+				<p>from chennai, India</p>
+				<a href="#">Download my Resume</a>
+			</div>
+		</section>
+
+	</div>
+	<!---------------------- main Container end  --------------------->
+
+</body>
+</html>

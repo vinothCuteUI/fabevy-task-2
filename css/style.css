@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: red;
+	font-size: 16px;
+}
+
+h1{
+	color: blue;
+	font-size: 25px;	
+}
+/*
+div p{
+	color: green;
+}
+div h1{
+	color: gray;
+	font-size: 30px;
+} */
+.fed4 h1{
+	color: lightgreen;
+}
+#htag1{
+	text-transform: uppercase;
+}
+h2.htag1{
+	color: orange;
+	text-transform: lowercase;
+}
+.htag2{
+	color: black;
+}
+.htag3{
+	color: pink;
+}
+.tags{
+	font-size: 80px;
+}
+
+.fed4 > p{
+	color: green;
+}
+
+.form-inputs{
+	margin-top: 20px;
+}
+input[type="text"]{
+	border:solid 1px red;
+}
+.form-inputs .inpt{
+	border:solid 1px green;
+}
